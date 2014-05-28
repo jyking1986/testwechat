@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 public class JDIServiceTest {
 
 //    public static final String SERVICE_URL = "http://localhost:8080/wechatentry";
-    public static final String SERVICE_URL = "http://ec2-54-250-243-36.ap-northeast-1.compute.amazonaws.com/wechatentry";
+    public static final String SERVICE_URL = "http://114.215.189.62/wechatentry";
 
     @Test
     public void testSendPicture() {

@@ -11,8 +11,10 @@ import javax.ws.rs.core.MediaType;
  */
 public class RunClubPhotoFilterTest {
 
+//    public static final String SERVICE_URL = "http://gow.nike.com.cn/free/runclub/weixin";
 //    public static final String SERVICE_URL = "http://localhost:8080/wechatentry";
-    public static final String SERVICE_URL = "http://ec2-54-199-132-47.ap-northeast-1.compute.amazonaws.com/wechatentry";
+    public static final String SERVICE_URL = "http://54.178.137.196/wechatentry";
+//    http://54.178.136.153/wechatentry
 //    public static final String SERVICE_URL = "http://runclub.nike.com.cn/wechatentry";
 
     @Test
