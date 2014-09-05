@@ -11,9 +11,10 @@ import javax.ws.rs.core.MediaType;
  */
 public class RunClubPhotoFilterTest {
 
+    public static final String SERVICE_URL = "http://gow.nike.com.cn/nikerunclub/weixin";
 //    public static final String SERVICE_URL = "http://gow.nike.com.cn/free/runclub/weixin";
 //    public static final String SERVICE_URL = "http://localhost:8080/wechatentry";
-    public static final String SERVICE_URL = "http://54.178.137.196/wechatentry";
+//    public static final String SERVICE_URL = "http://54.178.137.196/wechatentry";
 //    http://54.178.136.153/wechatentry
 //    public static final String SERVICE_URL = "http://runclub.nike.com.cn/wechatentry";
 
@@ -25,7 +26,20 @@ public class RunClubPhotoFilterTest {
                 "<CreateTime>1348831860</CreateTime>\n" +
                 "<MsgType><![CDATA[event]]></MsgType>\n" +
                 "<Event><![CDATA[CLICK]]></Event>\n" +
-                "<EventKey><![CDATA[ACTIVITY.RUN_CREW_LOGO]]></EventKey>\n" +
+                "<EventKey><![CDATA[ACTIVITY.CREATE_CREW]]></EventKey>\n" +
+                "</xml>";
+        System.out.println(Client.create().resource(SERVICE_URL).type(MediaType.APPLICATION_XML).post(String.class, message));
+    }
+
+    @Test
+    public void testClickMenuToKickoffWorkflow1() throws Exception {
+        String message = "<xml>\n" +
+                "<ToUserName><![CDATA[nikerunclub]]></ToUserName>\n" +
+                "<FromUserName><![CDATA[12345]]></FromUserName>\n" +
+                "<CreateTime>1348831860</CreateTime>\n" +
+                "<MsgType><![CDATA[event]]></MsgType>\n" +
+                "<Event><![CDATA[CLICK]]></Event>\n" +
+                "<EventKey><![CDATA[ACTIVITY.CREATE_CREW1]]></EventKey>\n" +
                 "</xml>";
         System.out.println(Client.create().resource(SERVICE_URL).type(MediaType.APPLICATION_XML).post(String.class, message));
     }

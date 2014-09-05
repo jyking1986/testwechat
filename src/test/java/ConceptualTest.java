@@ -15,8 +15,10 @@ import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.nio.charset.CharacterCodingException;
 import java.text.MessageFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
@@ -240,8 +242,8 @@ public class ConceptualTest {
         String application = "com.nike.brand.china.runclub";
         String clientId = "b1e41b998e0793241fbad69b5ed13649";
         String secret = "f6bdc17b47839831";
-        String refreshTokenBody = "{\"grant_type\": \"refresh_token\", refresh_token: \"%s\"}";
-        String tokenBody = String.format(refreshTokenBody, "sfyIQs8dw1hfcRfvFKLv8cDcP6kBV7Yu");
+        String refreshTokenBody = "{\"grant_type\": \"refresh_token\", \"refresh_token\": \"%s\"}";
+        String tokenBody = String.format(refreshTokenBody, "acuoEMv09PJWhn19xcmb2PZvIxAnNzMX");
         String loginUrl = String.format(loginUrlFormat, application, clientId, secret);
         System.out.println(loginUrl);
         System.out.println(tokenBody);
@@ -269,8 +271,8 @@ public class ConceptualTest {
         String secret = "f6bdc17b47839831";
         String credentialFormat = "email=%s&password=%s";
 //        String email = "ethanwang002@akqa.com"; pre-prod
-        String email = "ygn2166@163.com";
-        String password = "Ygn#018776#";
+        String email = "ethan.wang.j@gmail.com";
+        String password = "Qazxsw12";
 //        String password = "invalid";
         String credential = String.format(credentialFormat, email, password);
         String loginUrl = String.format(loginUrlFormat, application, clientId, secret, URLEncoder.encode(credential, "UTF-8"));
@@ -354,20 +356,20 @@ public class ConceptualTest {
 //        "access_token":"dvwOfT3hDHrL39IeKT08NIKGThXk",
 //                "expires_in":"3600",
 //                "refresh_token":"vLZQxCzFlYdXIN3q2WNxEUIy6mZ9swDr",
-        String result = Client.create().resource("https://api.nike.com/me/sport/activities/RUNNING?access_token=GTkG2pS2TrPN6LtIpATf8We9Ph8o&offset=1&count=1000&startDate=2013-05-07&endDate=2015-05-10")
+        ClientResponse result = Client.create().resource("https://api.nike.com/me/sport/activities/RUNNING?access_token=JFbhV7But7mWASWD6RzMyR1vqglc&offset=1&count=1000&startDate=2014-05-25&endDate=2014-06-13")
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)
                 .header("appid", "com.nike.brand.china.runclub")
-                .get(String.class);
+                .get(ClientResponse.class);
 
-        System.out.println(result);
+        System.out.println(result.getEntity(String.class));
 
     }
 
     @Test
     public void testGetUserProfile() {
         String result = Client.create().resource("https://api.nike.com/v2.0/me/activities/summary?" +
-                "access_token=wDiSTZUwiVU5sxDG6FjIJQy0LwEM")
+                "access_token=JFbhV7But7mWASWD6RzMyR1vqglc")
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)
                 .header("appid", "com.nike.brand.china.runclub")
@@ -379,7 +381,7 @@ public class ConceptualTest {
     @Test
     public void testGetUserProfileInfo() {
         String result = Client.create().resource("https://api.nike.com/v2.0/me/snapshot?" +
-                "access_token=wDiSTZUwiVU5sxDG6FjIJQy0LwEM")
+                "access_token=JFbhV7But7mWASWD6RzMyR1vqglc")
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)
                 .header("appid", "com.nike.brand.china.runclub")
@@ -415,10 +417,10 @@ public class ConceptualTest {
 
     @Test
     public void testGetFriend() {
-        String api = "https://api.nike.com/nsl/user/friend/list?access_token=862a0568d467405e3a449c5baf9babe8&app=com.nike.brand.china.runclub&format=json&startIndex=0&count=20";
-        String s = Client.create().resource(api).get(String.class);
+        String api = "https://api.nike.com/nsl/user/friend/list?access_token=b3f0417aeb1c76ac6ac67846592fd85d&app=com.nike.brand.china.runclub&format=json&startIndex=0&count=20";
+        ClientResponse response = Client.create().resource(api).get(ClientResponse.class);
 
-        System.out.println(s);
+        System.out.println(response.getEntity(String.class));
     }
 
     @Test
@@ -449,11 +451,24 @@ public class ConceptualTest {
         String urlformat = "http://114.215.189.62/apitool/activitydata/%s";
 //        String urlformat = "http://localhost:8080/apitool/activitydata/%s";
         Client client = Client.create();
+
         for (String s : openidList) {
             s = s.replace("|", "").trim();
             System.out.println(client.resource(String.format(urlformat, s))
                     .header("Authorization", "Basic cm9vdDpyb290")
                     .get(String.class));
+        }
+
+        for (String s : openidList) {
+            s = s.replace("|", "").trim();
+            long startTicks = System.currentTimeMillis();
+            System.out.println(client.resource(String.format(urlformat, s))
+                    .header("Authorization", "Basic cm9vdDpyb290")
+                    .get(String.class));
+
+            long stopTime = System.currentTimeMillis();
+            long duration = stopTime - startTicks;
+            System.out.println(duration);
         }
 
     }
@@ -475,22 +490,74 @@ public class ConceptualTest {
 
     @Test
     public void testForceSyncData() {
-        String emails="| 3579661@qq.com           |\n" +
-                "| 526057970@qq.com         |\n" +
-                "| 564811882@qq.com         |\n" +
-                "| chass.chiu@gmail.com     |\n" +
-                "| kawaicoco@hotmail.com    |\n" +
-                "| kellylaulyy@gmail.com    |\n" +
-                "| lorna.luo@nike.com       |\n" +
-                "| optest201209@gmail.com   |\n" +
-                "| optest201209@hotmail.com |\n" +
-                "| paul_smout@yahoo.co.uk   |\n" +
-                "| sj830628@hotmail.com     |\n" +
-                "| sunnyoo35@hotmail.com    |\n" +
-                "| yacacia@163.com          |\n" +
-                "| ygn2166@163.com          |\n" +
-                "| zjingqiu@yahoo.com       |";
+        String emails = "";
 
 
     }
+
+    @Test
+    public void testSyncForMail() {
+        List<String> mail = new ArrayList<>();
+        mail.add("lorna.luo@nike.com");
+        mail.add("sj830628@hotmail.com");
+        mail.add("526057970@qq.com");
+        mail.add("kellylaulyy@gmail.com");
+        mail.add("chass.chiu@gmail.com");
+        mail.add("kawaicoco@hotmail.com");
+
+        String urlformat = "http://runclub.nike.com.cn/apitool/activitydata/email/%s";
+        Client client = Client.create();
+        for (int i = 0; i < 2; i++) {
+            for (String s : mail) {
+                System.out.print(s + ": ");
+                System.out.println(client.resource(String.format(urlformat, s))
+                        .header("Authorization", "Basic cm9vdDpyb290")
+                        .get(String.class));
+            }
+        }
+    }
+
+    public class Quickselect {
+        private void swap(Comparable<?>[] arr, int a, int b) {
+            Comparable<?> t = arr[a];
+            arr[a] = arr[b];
+            arr[b] = t;
+        }
+
+        @SuppressWarnings({"rawtypes", "unchecked"})
+        private int partition(Comparable[] arr, int low, int high, int pivot) {
+            System.out.println(" " + low + " " + high);
+            Comparable pivot_val = arr[pivot];
+            int larger = low;
+            swap(arr, pivot, high);
+            for (int i = low; i < high; ++i) {
+
+                if (pivot_val.compareTo(arr[i]) == -1) {
+                    swap(arr, i, larger++);
+                }
+            }
+            swap(arr, high, larger);
+            return larger;
+        }
+
+        public Comparable<?> quickselect(Comparable<?>[] arr, int k) {
+            int low = 0;
+            int high = arr.length - 1;
+            while (low <= high) {
+                int rand = (int) ((Math.random() * (high - low)) + low);
+                int p = partition(arr, low, high, rand);
+                if (p == k - 1) {
+                    return arr[p];
+                } else if (p > k - 1) {
+                    high = p - 1;
+                } else {
+                    low = p + 1;
+                }
+            }
+            //Shouldn't happen
+            return null;
+        }
+    }
+
+
 }
