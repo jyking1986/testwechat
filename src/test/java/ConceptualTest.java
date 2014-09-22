@@ -8,6 +8,7 @@ import org.joda.time.format.DateTimeFormatter;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import javax.ws.rs.core.Cookie;
 import javax.ws.rs.core.MediaType;
 import java.io.*;
 import java.net.URL;
@@ -474,6 +475,16 @@ public class ConceptualTest {
     }
 
     @Test
+    public void testSyncData() {
+        String openId = "owF3Pjj6eAU3AQzSlBVUawinRqkg";
+        String urlformat = "http://runclub.nike.com.cn/apitool/activitydata/%s";
+        Client client = Client.create();
+        System.out.println(client.resource(String.format(urlformat, openId))
+                .header("Authorization", "Basic cm9vdDpjb2Rldmlld2VkaXRmaWxl")
+                .get(String.class));
+    }
+
+    @Test
     public void testHash() {
         String a = "buzzards";
         String b = "righto";
@@ -493,6 +504,42 @@ public class ConceptualTest {
         String emails = "";
 
 
+    }
+
+    @Test
+    public void testUpdateProfile() {
+        String url = "http://runclub.nike.com.cn/apitool/nikepluslogin/profileupdate";
+        Client client = Client.create();
+        System.out.println(client.resource(url)
+                .header("Authorization", "Basic cm9vdDpjb2Rldmlld2VkaXRmaWxl")
+                .get(String.class));
+    }
+
+    @Test
+    public void testActivateCrew() {
+        String url = "http://114.215.189.62/api/runon/crew/activate?crewid=%s";
+        List<Long> ids = new ArrayList<>();
+        ids.add(1l);
+        ids.add(1064l);
+        ids.add(1071l);
+        ids.add(1097l);
+        ids.add(1121l);
+        ids.add(1124l);
+        ids.add(2758l);
+        ids.add(2845l);
+        for (Long id : ids) {
+            ClientResponse post = Client.create().resource(String.format(url, id)).cookie(new Cookie("openid", "owF3Pjh_n3_CoAloLOTbmabyO3lM")).post(ClientResponse.class);
+
+            System.out.println(post.getEntity(String.class));
+        }
+    }
+
+    @Test
+    public void pledgeCrew() {
+        String url = "http://114.215.189.62/api/runon/crew/pledge?crewid=%s";
+        ClientResponse post = Client.create().resource(String.format(url, 1064l)).cookie(new Cookie("openid", "owF3Pjh_n3_CoAloLOTbmabyO3lM")).post(ClientResponse.class);
+
+        System.out.println(post.getEntity(String.class));
     }
 
     @Test
