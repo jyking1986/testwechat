@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a6b66f0-d4f5-4332-9a47-537c8649e937" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/profile.1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/profile.2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/profile.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/summary.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ConceptualTest.java" afterPath="$PROJECT_DIR$/src/test/java/ConceptualTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_multipart_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_1_4.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_akqa_com_akqa_wechat_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_akqa_com_akqa_wechat_1_0_3_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testwechat.iml" afterPath="$PROJECT_DIR$/testwechat.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testwechat.iws" />
@@ -24,7 +25,7 @@
     <file path="$PROJECT_DIR$/../WeChatAPI/src/main/java/com/akqa/wechat/resource/WeChatEntryPointResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406253246013" ignored="false" />
     <file path="/engineTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387941873579" ignored="false" />
     <file path="$PROJECT_DIR$/../NikeSP14PhotoFilterPlugin/src/main/resources/i18n/local_zh_CN.properties" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388316958353" ignored="false" />
-    <file path="/Dummy.txt" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412733505587" ignored="false" />
+    <file path="/Dummy.txt" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412733670871" ignored="false" />
     <file path="$PROJECT_DIR$/../WeChatAPI/src/test/java/com/akqa/wechat/WeChatClientConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411998646028" ignored="false" />
     <file path="/WeChatClientConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406253796402" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/menu.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1399430066523" ignored="false" />
@@ -1861,10 +1862,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunClubPhotoFilterTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="39" selection-start="1385" selection-end="1385" vertical-scroll-proportion="1.2448133">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunClubPhotoFilterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="793" selection-end="793" vertical-scroll-proportion="0.031055901">
+            <state line="46" column="45" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testConfiguration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1890,7 +1909,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/testConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/testService.java" />
         <option value="$PROJECT_DIR$/src/test/java/engineTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PhotoFilterSeviceTest.java" />
@@ -1904,6 +1922,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ConceptualTest.java" />
         <option value="$PROJECT_DIR$/src/test/resource/profile.json" />
         <option value="$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -2427,14 +2446,22 @@
       <created>1411350920643</created>
       <updated>1411350920643</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding some conceptual test">
+      <created>1412733531999</created>
+      <updated>1412733531999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding some conceptual test">
+      <created>1412733674742</created>
+      <updated>1412733674742</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="22" width="1403" height="878" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32717678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23170732" sideWeight="0.6731302" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2445,19 +2472,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1764706" sideWeight="0.7423823" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18128224" sideWeight="0.6723684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17980841" sideWeight="0.6728232" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27440634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2528,16 +2555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="6" selection-start="10526" selection-end="10526" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.2/joda-time-2.2-sources.jar!/org/joda/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="18" selection-start="3430" selection-end="3430" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.2/joda-time-2.2-sources.jar!/org/joda/time/DateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="548" column="20" selection-start="20545" selection-end="20545" vertical-scroll-proportion="0.0" />
@@ -2561,11 +2578,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/JDIServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="5" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="458" selection-end="463" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PhotoFilterServiceTest.java">
@@ -2598,6 +2610,27 @@
         <state line="66" column="39" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.28470254" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="372" selection-end="372" vertical-scroll-proportion="0.1849315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="45" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ConceptualTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="35" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0">
@@ -2605,9 +2638,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="793" selection-end="793" vertical-scroll-proportion="0.031055901">
+        <state line="40" column="39" selection-start="1385" selection-end="1385" vertical-scroll-proportion="1.2448133">
           <folding />
         </state>
       </provider>
