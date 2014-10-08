@@ -1,0 +1,324 @@
+{
+    "activityTypeList": [
+        "running"
+    ],
+    "userInfo": [
+        {
+            "activityType": "all",
+            "upmId": "10331433382",
+            "plusId": "94456bbc-c1f0-4b02-8831-32ff645c7d24",
+            "pin": "0F87691A-833F-48E0-AF0B-04152C604004",
+            "screenName": "Ethanwang112233",
+            "firstName": "Ethan",
+            "lastName": "wang",
+            "concatenatedName": "Ethan W.",
+            "gender": "m",
+            "level": 2,
+            "height": 172,
+            "weight": 60.5,
+            "email": "ethan.wang.j@gmail.com",
+            "dateOfBirth": "1901-03-01T00:00:00Z",
+            "isFacebookLinked": false,
+            "unitOfMeasure": "METRIC",
+            "globalPrivacy": "SOCIAL",
+            "updateDate": "2013-11-14T06:52:28Z",
+            "deviceList": [
+                {
+                    "userDeviceId": "01af5482-3e57-4e4a-82de-48b970af8715"
+                },
+                {
+                    "userDeviceId": "de55e751-0179-45ac-bc41-7b4e1d3428b5"
+                }
+            ],
+            "addressList": [
+                {
+                    "addressType": "SHIPPING"
+                },
+                {
+                    "addressType": "HOME",
+                    "country": "CN"
+                },
+                {
+                    "addressType": "BILLING"
+                }
+            ],
+            "externalNetworks": [
+                "sina"
+            ]
+        }
+    ],
+    "userDevices": [
+        {
+            "deviceType": "IPHONE",
+            "serialNo": "01af5482-3e57-4e4a-82de-48b970af8715"
+        },
+        {
+            "deviceType": "GPSANDROID",
+            "serialNo": "359250050288511"
+        }
+    ],
+    "userTotals": [
+        {
+            "activityType": "all",
+            "lifetimeTotalFuel": 49760
+        },
+        {
+            "activityType": "running",
+            "metrics": {
+                "lifetimeTotalFuel": 49760,
+                "lifetimeOnlyRunningTotalFuel": 49760,
+                "level": 2,
+                "lifetimeTotalDistance": 199.63095522433105,
+                "lifetimeTotalDuration": 61920603,
+                "gpsRuns": 19,
+                "totalHeartActivities": 0,
+                "totalRunActivities": 41,
+                "lifetimeTotalRunDuration": 61920603,
+                "lifetimeAveragePace": 310175.35797701334
+            },
+            "records": [
+                {
+                    "name": "longestRun",
+                    "value": 159.34445,
+                    "activityId": "9287000000005091382750069059427496179130"
+                },
+                {
+                    "name": "longestDuration",
+                    "value": 23763000,
+                    "activityId": "9287000000005091382750069059427496179130"
+                },
+                {
+                    "name": "fastestMile",
+                    "value": 571706,
+                    "activityId": "7481000000008599974270082181647708721006"
+                },
+                {
+                    "name": "bestCaloriesBurned",
+                    "value": 9413,
+                    "activityId": "9287000000005091382750069059427496179130"
+                },
+                {
+                    "name": "fastest1K",
+                    "value": 339587,
+                    "activityId": "3752000000014432701980053604869166587084"
+                },
+                {
+                    "name": "fastest5K",
+                    "value": 0
+                },
+                {
+                    "name": "fastest10K",
+                    "value": 0
+                },
+                {
+                    "name": "fastestHalfMarathon",
+                    "value": 0
+                },
+                {
+                    "name": "fastestMarathon",
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "fuelMilestoneMarkers": {
+        "lastFuelMilestone": 25000,
+        "nextFuelMilestone": 50000
+    },
+    "latestEvent": {
+        "eventId": "3411cf44-a738-479e-a66d-84111bdaf654",
+        "eventDate": "2014-09-23T07:14:39Z",
+        "appId": "RUNNING_ANDROID",
+        "entityId": "9287000000005091382750069059427496179130",
+        "entityDate": "2014-09-30T00:00:00Z",
+        "eventType": "PR.HIGHMILE.GOLD",
+        "eventGroup": "PERSONAL_RECORDS",
+        "localizedText": "你这个月记录的里程数实在惊人。这水平够你拿金牌了。",
+        "commentingAllowed": false,
+        "payload": {
+            "startTime": "1411485146216",
+            "newValue": "159.34445",
+            "ExperienceType": "RUNNING",
+            "imageId": "PR_HIGHMILE_GOLD",
+            "tzOffset": "+08:00",
+            "dstOffset": "00:00",
+            "sportActivityId": "9287000000005091382750069059427496179130",
+            "ActivityType": "RUN",
+            "oldValue": "0.0",
+            "date": "1412035200000",
+            "achievementIsVideoAvailable": "false"
+        }
+    },
+    "friendsList": {
+        "count": 4,
+        "friends": [
+            {
+                "upmId": "10919695038",
+                "name": "chasschiu",
+                "avatar": null
+            },
+            {
+                "upmId": "10331539306",
+                "name": "toprunner11",
+                "avatar": null
+            },
+            {
+                "upmId": "9098119245",
+                "name": "jessica1688",
+                "avatar": null
+            },
+            {
+                "upmId": "10934709348",
+                "name": "daretorunornot",
+                "avatar": null
+            }
+        ]
+    },
+    "totalTrophyCount": "12",
+    "trophies": [
+        {
+            "trophyType": "PR.HIGHMILE.GOLD",
+            "trophyValue": 0,
+            "trophyCount": 1,
+            "trophyDate": 1412035200000,
+            "trophyMidnightDate": 1412035200000,
+            "activityId": "9287000000005091382750069059427496179130",
+            "achievementId": "3411cf44-a738-479e-a66d-84111bdaf654",
+            "fuelValue": 159.34445,
+            "isVideoAvailable": false,
+            "imageId": "PR_HIGHMILE_GOLD"
+        },
+        {
+            "trophyType": "PR.HALF_MARATHON",
+            "trophyValue": 0,
+            "trophyCount": 2,
+            "trophyDate": 1411485146216,
+            "trophyMidnightDate": 1411430400000,
+            "activityId": "9287000000005091382750069059427496179130",
+            "achievementId": "7eb12f60-b6cf-45a4-be60-b55b8ffb995b",
+            "fuelValue": 23763000,
+            "isVideoAvailable": false,
+            "imageId": "PR_HALF_MARATHON"
+        },
+        {
+            "trophyType": "PR.FIRST_MARATHON",
+            "trophyValue": 0,
+            "trophyCount": 1,
+            "trophyDate": 1411485146216,
+            "trophyMidnightDate": 1411430400000,
+            "activityId": "9287000000005091382750069059427496179130",
+            "achievementId": "29e1ba74-2f10-44b5-abba-6bac11f20955",
+            "fuelValue": 23763000,
+            "isVideoAvailable": false,
+            "imageId": "PR_FIRST_MARATHON"
+        },
+        {
+            "trophyType": "PR.FUEL.FUELMILESTONE",
+            "trophyValue": 25000,
+            "trophyCount": 1,
+            "trophyDate": 1411456346216,
+            "trophyMidnightDate": 1411430400000,
+            "activityId": "9287000000005091382750069059427496179130",
+            "achievementId": "16aa30a0-46c0-46f5-8cd3-ba056ced95bf",
+            "fuelValue": 25000,
+            "isVideoAvailable": true,
+            "imageId": "PR_FUEL_FUELMILESTONE_25000"
+        },
+        {
+            "trophyType": "PR.FUEL.FUELMILESTONE",
+            "trophyValue": 10000,
+            "trophyCount": 2,
+            "trophyDate": 1411456346216,
+            "trophyMidnightDate": 1411430400000,
+            "activityId": "9287000000005091382750069059427496179130",
+            "achievementId": "86bf3ca0-0b06-4b19-8c4f-e98b60d135b7",
+            "fuelValue": 10000,
+            "isVideoAvailable": false,
+            "imageId": "PR_FUEL_FUELMILESTONE_10000"
+        },
+        {
+            "trophyType": "PR.DELIGHT.DOUBLE_YOUR_PLEASURE",
+            "trophyValue": 0,
+            "trophyCount": 9,
+            "trophyDate": 1402195500000,
+            "trophyMidnightDate": 1402185600000,
+            "activityId": "3964000000004185052340057374512819835240",
+            "achievementId": "80586f11-b653-4014-aad2-55a364997627",
+            "fuelValue": 0,
+            "isVideoAvailable": false,
+            "imageId": "PR_DELIGHT_DOUBLE_YOUR_PLEASURE"
+        },
+        {
+            "trophyType": "PR.FREQUENCY.THREE_ACTIVITIES_IN_WEEK_ACHIEVED",
+            "trophyValue": 0,
+            "trophyCount": 9,
+            "trophyDate": 1401667200000,
+            "trophyMidnightDate": 1401667200000,
+            "activityId": "3964000000004185052340057374512819835240",
+            "achievementId": "c11dfae5-10ac-4433-9dde-19ddda6a7d82",
+            "fuelValue": 0,
+            "isVideoAvailable": false,
+            "imageId": "PR_FREQUENCY_THREE_ACTIVITIES_IN_WEEK_ACHIEVED"
+        },
+        {
+            "trophyType": "PR.STREAK.SIX_WEEKS",
+            "trophyValue": 0,
+            "trophyCount": 1,
+            "trophyDate": 1401047817000,
+            "trophyMidnightDate": 1400976000000,
+            "activityId": "5330000000012745646190040309236489637611",
+            "achievementId": "5e30c0fa-6dd5-4700-b166-93ac68a727b8",
+            "fuelValue": 6,
+            "isVideoAvailable": false,
+            "imageId": "PR_STREAK_SIX_WEEKS"
+        },
+        {
+            "trophyType": "PR.STREAK.FIVE_WEEKS",
+            "trophyValue": 0,
+            "trophyCount": 1,
+            "trophyDate": 1399926509000,
+            "trophyMidnightDate": 1399852800000,
+            "activityId": "5577000000008592650000055156990681411102",
+            "achievementId": "62f4a99e-3d65-414d-a724-d90ba17235db",
+            "fuelValue": 5,
+            "isVideoAvailable": false,
+            "imageId": "PR_STREAK_FIVE_WEEKS"
+        },
+        {
+            "trophyType": "PR.STREAK.THREE_DAYS",
+            "trophyValue": 0,
+            "trophyCount": 1,
+            "trophyDate": 1399578389000,
+            "trophyMidnightDate": 1399507200000,
+            "activityId": "7481000000008599974270082181647708721006",
+            "achievementId": "ef34a738-530c-4e43-ad2e-58f54480c44d",
+            "fuelValue": 3,
+            "isVideoAvailable": false,
+            "imageId": "PR_STREAK_THREE_DAYS"
+        },
+        {
+            "trophyType": "PR.STREAK.FOUR_WEEKS",
+            "trophyValue": 0,
+            "trophyCount": 1,
+            "trophyDate": 1399411717000,
+            "trophyMidnightDate": 1399334400000,
+            "activityId": "3752000000014432701980053604869166587084",
+            "achievementId": "2cb4f517-0d16-4623-aa80-d8c52bb46ad3",
+            "fuelValue": 4,
+            "isVideoAvailable": false,
+            "imageId": "PR_STREAK_FOUR_WEEKS"
+        },
+        {
+            "trophyType": "PR.FREQUENCY.SEVEN_ACTIVITIES_IN_WEEK_ACHIEVED",
+            "trophyValue": 0,
+            "trophyCount": 2,
+            "trophyDate": 1399248000000,
+            "trophyMidnightDate": 1399248000000,
+            "activityId": "1819000000008718636660017306503426027673",
+            "achievementId": "dbb8cc7b-7c08-4bfe-bc28-4de8707dc908",
+            "fuelValue": 0,
+            "isVideoAvailable": false,
+            "imageId": "PR_FREQUENCY_SEVEN_ACTIVITIES_IN_WEEK_ACHIEVED"
+        }
+    ]
+}

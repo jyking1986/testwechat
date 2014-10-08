@@ -370,7 +370,7 @@ public class ConceptualTest {
     @Test
     public void testGetUserProfile() {
         String result = Client.create().resource("https://api.nike.com/v2.0/me/activities/summary?" +
-                "access_token=JFbhV7But7mWASWD6RzMyR1vqglc")
+                "access_token=6113VNAsBJrSmfEMSc3ZdHNGAzK7")
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)
                 .header("appid", "com.nike.brand.china.runclub")
@@ -381,14 +381,17 @@ public class ConceptualTest {
 
     @Test
     public void testGetUserProfileInfo() {
+        String token = "6113VNAsBJrSmfEMSc3ZdHNGAzK7";
         String result = Client.create().resource("https://api.nike.com/v2.0/me/snapshot?" +
-                "access_token=JFbhV7But7mWASWD6RzMyR1vqglc")
+                "access_token=" + token)
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)
                 .header("appid", "com.nike.brand.china.runclub")
                 .get(String.class);
 
         System.out.println(result);
+
+
     }
 
     @Test

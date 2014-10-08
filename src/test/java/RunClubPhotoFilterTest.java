@@ -13,7 +13,8 @@ public class RunClubPhotoFilterTest {
 
     //    public static final String SERVICE_URL = "http://gow.nike.com.cn/nikerunclub/weixin";
 //    public static final String SERVICE_URL = "http://gow.nike.com.cn/free/runclub/weixin";
-    public static final String SERVICE_URL = "http://localhost:8080/wechatentry";
+    public static final String SERVICE_URL = "http://gow.nike.com.cn/nikerunclub/weixin";
+//    public static final String SERVICE_URL = "http://localhost:8080/wechatentry";
 
     //    public static final String SERVICE_URL = "http://54.178.137.196/wechatentry";
 //    http://54.178.136.153/wechatentry
@@ -41,7 +42,8 @@ public class RunClubPhotoFilterTest {
                 " <Content><![CDATA[12345]]></Content>\n" +
                 " <MsgId>1234567890123456</MsgId>\n" +
                 " </xml>";
-        System.out.println(Client.create().resource(SERVICE_URL).type(MediaType.APPLICATION_XML).post(String.class, message));
+        String post = Client.create().resource(SERVICE_URL).type(MediaType.APPLICATION_XML).post(String.class, message);
+        System.out.println(post);
     }
 
     @Test
