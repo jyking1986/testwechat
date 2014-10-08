@@ -11,7 +11,7 @@
     <properties>
         <version.dropwizard>0.6.2</version.dropwizard>
         <version.amazonaws>1.6.9.1</version.amazonaws>
-        <version.wechatapi>1.0-SNAPSHOT</version.wechatapi>
+        <version.wechatapi>1.0.3-SNAPSHOT</version.wechatapi>
     </properties>
 
     <developers>
