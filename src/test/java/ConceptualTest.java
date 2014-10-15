@@ -370,7 +370,7 @@ public class ConceptualTest {
     @Test
     public void testGetUserProfile() {
         String result = Client.create().resource("https://api.nike.com/v2.0/me/activities/summary?" +
-                "access_token=6113VNAsBJrSmfEMSc3ZdHNGAzK7")
+                "access_token=KEs4HshPmOA4KwlzyfAGr1zEMpr7")
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)
                 .header("appid", "com.nike.brand.china.runclub")
@@ -381,8 +381,24 @@ public class ConceptualTest {
 
     @Test
     public void testGetUserProfileInfo() {
-        String token = "6113VNAsBJrSmfEMSc3ZdHNGAzK7";
+        String token = "KEs4HshPmOA4KwlzyfAGr1zEMpr7";
         String result = Client.create().resource("https://api.nike.com/v2.0/me/snapshot?" +
+                "access_token=" + token)
+                .header("Accept", MediaType.APPLICATION_JSON)
+                .header("Content-Type", MediaType.APPLICATION_JSON)
+                .header("appid", "com.nike.brand.china.runclub")
+                .get(String.class);
+
+        System.out.println(result);
+
+
+    }
+
+    @Test
+    public void testGetUserProfileInfoByMonth() {
+        String token = "KEs4HshPmOA4KwlzyfAGr1zEMpr7";
+        String result = Client.create().resource("https://api.nike.com/v1.0/me/activities/summary/month?" +
+                "startDate=9&" +
                 "access_token=" + token)
                 .header("Accept", MediaType.APPLICATION_JSON)
                 .header("Content-Type", MediaType.APPLICATION_JSON)

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a6b66f0-d4f5-4332-9a47-537c8649e937" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_multipart_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_1_4.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_akqa_com_akqa_wechat_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_akqa_com_akqa_wechat_1_0_3_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testwechat.iml" afterPath="$PROJECT_DIR$/testwechat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ConceptualTest.java" afterPath="$PROJECT_DIR$/src/test/java/ConceptualTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testwechat.iws" />
@@ -18,16 +12,16 @@
     <file path="/testConfiguration.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387882477644" ignored="false" />
     <file path="/testService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387882386346" ignored="false" />
     <file path="/engine.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387882343474" ignored="false" />
-    <file path="/fragment.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411981499275" ignored="false" />
+    <file path="/fragment.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413281910542" ignored="false" />
     <file path="/config.yml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387882458385" ignored="false" />
     <file path="$PROJECT_DIR$/../WeChatAPI/src/main/java/com/akqa/wechat/resource/WeChatMessageBodyWriter.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387882860810" ignored="false" />
     <file path="$PROJECT_DIR$/../WeChatAPI/src/main/java/com/akqa/wechat/resource/WeChatMessageBodyReader.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387882867032" ignored="false" />
     <file path="$PROJECT_DIR$/../WeChatAPI/src/main/java/com/akqa/wechat/resource/WeChatEntryPointResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406253246013" ignored="false" />
     <file path="/engineTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387941873579" ignored="false" />
     <file path="$PROJECT_DIR$/../NikeSP14PhotoFilterPlugin/src/main/resources/i18n/local_zh_CN.properties" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388316958353" ignored="false" />
-    <file path="/Dummy.txt" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412733670871" ignored="false" />
-    <file path="$PROJECT_DIR$/../WeChatAPI/src/test/java/com/akqa/wechat/WeChatClientConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411998646028" ignored="false" />
-    <file path="/WeChatClientConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406253796402" ignored="false" />
+    <file path="/Dummy.txt" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413367270207" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeChatAPI/src/test/java/com/akqa/wechat/WeChatClientConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413028497711" ignored="false" />
+    <file path="/WeChatClientConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412839998617" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/menu.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1399430066523" ignored="false" />
     <file path="$PROJECT_DIR$/../NikeSP14PhotoFilterPlugin/src/main/java/com/nike/nikeplusrunclub/sp14/util/ResourceStringResolver.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387942280833" ignored="false" />
     <file path="/ResourceStringResolver.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1387942278176" ignored="false" />
@@ -55,7 +49,7 @@
     <file path="$PROJECT_DIR$/../NikePhotoFilterService/src/test/java/com/nike/nikeplusrunclub/photofilterservice/resource/FilterResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388024076414" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePhotoFilterService/src/test/java/com/nike/nikeplusrunclub/photofilterservice/util/ConversationalMessageHandlerTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397148792159" ignored="false" />
     <file path="/FilterResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388024062156" ignored="false" />
-    <file path="/a.dummy" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412065322420" ignored="false" />
+    <file path="/a.dummy" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413276726266" ignored="false" />
     <file path="$PROJECT_DIR$/../NikeSP14PhotoFilterPlugin/src/main/java/com/nike/nikeplusrunclub/sp14/domain/PostTextRequest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388024626114" ignored="false" />
     <file path="/PostTextRequest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388024592398" ignored="false" />
     <file path="$PROJECT_DIR$/../NikeSP14PhotoFilterPlugin/src/main/java/com/nike/nikeplusrunclub/sp14/client/PhotoFilterClient.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388716351021" ignored="false" />
@@ -84,14 +78,14 @@
     <file path="/ProcessUserPhotoTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388114793652" ignored="false" />
     <file path="$PROJECT_DIR$/../NikeSP14PhotoFilterPlugin/src/main/java/com/nike/nikeplusrunclub/sp14/conversation/ProcessUserPhoto.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388716351021" ignored="false" />
     <file path="/ProcessUserPhoto.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388118348078" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/DEV_config.yml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411998736692" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/DEV_config.yml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412935137759" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/logic/SimpleForwardProxy.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044596" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePhotoFilterService/src/main/resources/assets/content/jdi.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388670958083" ignored="false" />
     <file path="/jdi.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388596420565" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePhotoFilterService/src/main/resources/assets/content/runclub.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388671520903" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePhotoFilterService/config.yml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388642323360" ignored="false" />
     <file path="/ImageStorageClientTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1388662540607" ignored="false" />
-    <file path="/ConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411031913337" ignored="false" />
+    <file path="/ConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413365956961" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/util/ConceptualTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1389777021722" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/logic/steps/joincrew/AskUserLocationStep.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1405663468616" ignored="false" />
     <file path="/AskUserLocationStep.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1405578420242" ignored="false" />
@@ -234,7 +228,7 @@
     <file path="$PROJECT_DIR$/../PushLocationEvent/logs/service.log" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1393404560309" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePhotoIdCore/pom.xml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1393407985129" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/command/CreateInitDataCommand.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044595" ignored="false" />
-    <file path="/DEV_config.yml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411364237902" ignored="false" />
+    <file path="/DEV_config.yml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412924416628" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/migrations.xml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411982238410" ignored="false" />
     <file path="/migrations.xml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411982238410" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/dao/CrewDAO.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412000580638" ignored="false" />
@@ -340,10 +334,10 @@
     <file path="/GrantBrowserAccessTokenTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394006488955" ignored="false" />
     <file path="$PROJECT_DIR$/../WeChatAPI/src/test/java/com/akqa/wechat/domain/BrowserGrantedUserDetailsTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394006805613" ignored="false" />
     <file path="/BrowserGrantedUserDetailsTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394006643196" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/resources/NikePlusIntegrationResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412000580638" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/resources/NikePlusIntegrationResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413341223472" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/BindingNikePlusRequest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395653292044" ignored="false" />
     <file path="/BindingNikePlusRequest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394008393454" ignored="false" />
-    <file path="/NikePlusIntegrationResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410251668267" ignored="false" />
+    <file path="/NikePlusIntegrationResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413340415284" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/views/page/nikepluslogin.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394530260980" ignored="false" />
     <file path="/nikepluslogin.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394419792860" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/view/NikePlusLoginView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395415304435" ignored="false" />
@@ -377,8 +371,8 @@
     <file path="/bindsuccess.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394414983941" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/content/alreadybind.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394791072248" ignored="false" />
     <file path="/alreadybind.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394415368649" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/resources/NikePlusIntegrationResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411307743442" ignored="false" />
-    <file path="/NikePlusIntegrationResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410251924787" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/resources/NikePlusIntegrationResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413282711744" ignored="false" />
+    <file path="/NikePlusIntegrationResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413282711744" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/content/error.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1394791072248" ignored="false" />
     <file path="/error.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395652882967" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/client/WeChatTokenHolder.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395653292045" ignored="false" />
@@ -502,7 +496,7 @@
     <file path="/UnSubscribeEntryTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406184082892" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/BindingResultAction.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395412243496" ignored="false" />
     <file path="/BindingResultAction.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395412241224" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401782068563" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/view/RunFreeView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395464780681" ignored="false" />
     <file path="/RunFreeView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395464876323" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/dao/WeChatUserDetailDAO.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411381736349" ignored="false" />
@@ -513,20 +507,20 @@
     <file path="$PROJECT_DIR$/../WeChatAPI/src/main/java/com/akqa/wechat/domain/UserDetails.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1405575995962" ignored="false" />
     <file path="$PROJECT_DIR$/../WeChatAPI/src/test/java/com/akqa/wechat/domain/UserDetailsTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1405575995962" ignored="false" />
     <file path="/UserDetailsTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395417906437" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/index.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/index.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413344750161" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/main.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402985726047" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/scripts/app.build.min.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406605793201" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/main.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402985726047" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/LoginPageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402985726047" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/LoginPageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402918265141" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/scripts/app.build.min.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343672332" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/main.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343672332" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/LoginPageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343634265" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/LoginPageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343672332" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/deploy/scripts/app.build.min.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395420329325" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/util/TestDataBuilder.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044595" ignored="false" />
-    <file path="/index.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397016059639" ignored="false" />
+    <file path="/index.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413344757056" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/view/RunFreeSharingView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395426370879" ignored="false" />
     <file path="/RunFreeSharingView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395425900375" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/sharing.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/sharing.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/sharing_ok.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397651113365" ignored="false" />
-    <file path="/sharing.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397030199928" ignored="false" />
+    <file path="/sharing.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413276172845" ignored="false" />
     <file path="/app.build.min.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395426729101" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/view/RunFreeBaseView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397105512064" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/view/RunFreeLoginView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395465071664" ignored="false" />
@@ -542,19 +536,19 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/healthcheck/S3StorageHealthCheck.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044596" ignored="false" />
     <file path="/S3StorageHealthCheck.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395925246383" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/gender.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402914707776" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1399428244850" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413275518494" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/thanks.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395886158320" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/GenderPageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402899224440" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/GenderPageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343672332" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/GenderPageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401267925110" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/thanks.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395930047638" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/sharing_ok.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397747586185" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401782068563" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/informations_after.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395653292044" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/util/RunClubCertificateGeneratorTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1407849108665" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/util/RunClubCertificateGeneratorTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413367253441" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/configuration/CertificateSharingConfig.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395476719233" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1398849936160" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/download.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403847916434" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/util/RunClubCertificateGenerator.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044595" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413275518494" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/download.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/util/RunClubCertificateGenerator.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413269102410" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/information_before.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395930394608" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sharing_ok.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395930394608" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sass/partials/pages/_gender.scss" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395476719233" ignored="false" />
@@ -581,20 +575,20 @@
     <file path="/statistic.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406017739973" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/ShareOverPageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395630134571" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/SharePageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395630134571" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/SharePageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395630134571" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/SharePageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413277265293" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/akqa/com.akqa.wechat/1.0-SNAPSHOT/com.akqa.wechat-1.0-SNAPSHOT.jar!/com/akqa/wechat/WeChatClient.class" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403871481930" ignored="false" />
     <file path="/gender.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395642233542" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/services/AvatarCachingService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1407840943418" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/notfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403847916434" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/notfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="/notfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395675564596" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/error.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403847916434" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/error.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/libraries/dt/require.d.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395653292044" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/logic/event/NikePlusUserBindEvent.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410943688184" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/leaderboard.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/leaderboard.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/scripts/vendor/unconcatenated/require.min.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395653292045" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/information_after.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397747586185" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/information_before.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397747586185" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/LoginPageLayout.js.map" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397121566633" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/LoginPageLayout.js.map" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413279704016" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/app.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403237360397" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/error.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/notfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
@@ -605,17 +599,17 @@
     <file path="/LoginPageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397014111622" ignored="false" />
     <file path="/LoginPageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395922958224" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/GlobalLayoutManager.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406615102781" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/GlobalLayoutManager.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406605793201" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/GlobalLayoutManager.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343672332" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/Gruntfile.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402899224440" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/gender.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sharing.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sharing.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413277242103" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/sharing_ok.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395930394608" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/index.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/information.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/index.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413344757381" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/information.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/information.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/services/ShareCertificateService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411535400091" ignored="false" />
     <file path="/ShareCertificateService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402996615481" ignored="false" />
-    <file path="/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412071521998" ignored="false" />
+    <file path="/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412928563383" ignored="false" />
     <file path="/information.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397042553051" ignored="false" />
     <file path="/sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1395991106059" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/util/ProfanityFilter.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396080722204" ignored="false" />
@@ -649,7 +643,7 @@
     <file path="/RunClubConfigurationTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396253869048" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/runfreeinfo.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406631297157" ignored="false" />
     <file path="/RunClubCertificateGeneratorTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402982891214" ignored="false" />
-    <file path="/RunClubCertificateGenerator.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402984591195" ignored="false" />
+    <file path="/RunClubCertificateGenerator.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413264983335" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/client/SAEStorageClient.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406615102781" ignored="false" />
     <file path="/SAEStorageClient.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406277075158" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/client/SAEStorageClientTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411367297922" ignored="false" />
@@ -657,12 +651,12 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/saestorage/index.php.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396322642201" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/saestorage/testupload.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396322733647" ignored="false" />
     <file path="/testupload.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396322727926" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/runfreeinfo.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/runfreeinfo.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/certificateview.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396325604790" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/information_new.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396325684478" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/certificateview.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410758602576" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/certificateview.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413275598020" ignored="false" />
     <file path="/certificateview.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1398824777592" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/certificateview.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406631297157" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/certificateview.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/runfree/LeadboardUser.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396406891443" ignored="false" />
     <file path="/LeadboardUser.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396406877541" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/runfree/LeaderboardUser.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1396406586830" ignored="false" />
@@ -797,12 +791,12 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/view/runfree/pledge/PledgeOfferStatusView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397634275121" ignored="false" />
     <file path="/PledgeHomeView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401955352765" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_ask_sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_ask_sharing.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_offer.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401783924053" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_offer_selected.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401782068563" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401782068563" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_ask.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_offer_canceled.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403847916434" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_ask.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_offer_canceled.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_binding.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401782068563" ignored="false" />
     <file path="/PledgeOfferView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397628523298" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/pledge_offer.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
@@ -811,7 +805,7 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/pledge_ask.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1406630507037" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/PledgePageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403082301412" ignored="false" />
     <file path="/PledgePageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401955169368" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/PledgePageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402918930356" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/PledgePageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413268736158" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/pledge_offer_canceled.ftl" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397631415589" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/pledge_offer_canceled.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969511527" ignored="false" />
     <file path="/PledgeOfferStatusView.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1397634258208" ignored="false" />
@@ -936,7 +930,7 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/services/runactivityfilter/DoubleDistanceInSpecialDayFilterTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403251582865" ignored="false" />
     <file path="/DoubleDistanceInSpecialDayFilterTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1399357510132" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/resources/WeChatAPIResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412000580638" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/resources/WeChatAPIResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411991791153" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/resources/WeChatAPIResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413266630648" ignored="false" />
     <file path="/WeChatAPIResourceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411991551886" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/DEV_menu.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411535400091" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/PROD_menu.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1405920355306" ignored="false" />
@@ -960,7 +954,7 @@
     <file path="/BetamaxTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1400226969647" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/healthcheck/NikePlusServerHealthCheck.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1400574195070" ignored="false" />
     <file path="/NikePlusServerHealthCheck.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1400574195070" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_status.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403847916434" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/build/pledge_status.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413280346964" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/pledge_status.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402969314023" ignored="false" />
     <file path="/pledge_status.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1400742870765" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/integration/LoginAcceptanceTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401101129247" ignored="false" />
@@ -973,10 +967,10 @@
     <file path="/Gruntfile.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411988355883" ignored="false" />
     <file path="/PledgePageLayout.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402918115881" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/PledgePageLayout.js.map" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401334918528" ignored="false" />
-    <file path="/main.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402898346193" ignored="false" />
+    <file path="/main.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412931906119" ignored="false" />
     <file path="/main.ts" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1402898354511" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/leaderboard/TopViewManager.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1403847916434" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/libraries/jquery/social/ShareComponent.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401781444676" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/libraries/jquery/social/ShareComponent.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413277265293" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/libraries/generic/track/GAManager.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401781444676" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/libraries/generic/social/datatype/SocialDataType.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401782068563" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/leaderboard/StartManager.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1401781444676" ignored="false" />
@@ -1471,17 +1465,17 @@
     <file path="/SyncQueueHealthCheck.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1407946507428" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/services/runon/ScheduleActivityService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411379478700" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/api/createRunActivity.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1409928001565" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/content/RunOnAPIDemo.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411381736349" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/content/RunOnAPIDemo.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412929454205" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/apiClient.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410234337675" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/partials/crew-detail.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410317225026" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/partials/crew-detail.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412842284734" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/api/activityDetail.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411127615327" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/services/profileService.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412065807932" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/scripts/main.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412071491013" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/scripts/main.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413341223472" ignored="false" />
     <file path="/apiClient.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410231499085" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/dao/runon/RunActivityDAO.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412073690579" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/services/activityService.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410434664489" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/resources/RunOnResource.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411379497780" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411215001447" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412761592163" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/services/crewService.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410750814643" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/services/leaderboardService.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410429554059" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/api/UserHubSummary.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410428237609" ignored="false" />
@@ -1508,7 +1502,7 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/sax/examples/big-not-pretty.xml" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410253482781" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/services/runon/PledgeCrewService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410424226364" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/dao/runon/CrewSummaryDAO.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411379495566" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/styles/main.min.css" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412066569242" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/styles/main.min.css" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343352605" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/activity-creation.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410317225026" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/plan.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411120952223" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/activity-map.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410317225026" ignored="false" />
@@ -1522,7 +1516,7 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/languages/zh-cn.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410317225026" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/crew.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410317225026" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/crews.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410317225026" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/activityCreationCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412070222489" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/activityCreationCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413028499165" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/html/views/activity-creation.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411215001448" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/runon/TO/RunActivityCreatedResponse.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410865585694" ignored="false" />
     <file path="/RunActivityCreatedResponse.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410321819042" ignored="false" />
@@ -1648,7 +1642,7 @@
     <file path="/UserHubSummary.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411629337292" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/services/runon/UserSummaryService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411629419622" ignored="false" />
     <file path="/UserSummaryService.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411629418784" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412071525132" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/index.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413180907187" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/runon/TO/UpdateCrewDescriptionRequest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410449383446" ignored="false" />
     <file path="/UpdateCrewDescriptionRequest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410437821559" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/model/runon/TO/UpdateCrewDescriptionRequestTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410438522042" ignored="false" />
@@ -1687,10 +1681,10 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/api/UpdateCrewLogoResponse.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410848231532" ignored="false" />
     <file path="/UpdateCrewLogoResponse.json" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410848221588" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/confirmCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410848386192" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/activityCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410859450053" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/activityCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413180907187" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/test/java/com/nike/nikeplusrunclub/dao/runon/RunActivityDAOTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412073735645" ignored="false" />
     <file path="/RunActivityDAOTest.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411629194463" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/mapCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412064526049" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/controllers/mapCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412923596887" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/runon/TO/RunActivityIdentifier.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044596" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/model/runon/TO/CrewIdentifier.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410865932063" ignored="false" />
     <file path="/CrewIdentifier.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1410865924469" ignored="false" />
@@ -1751,7 +1745,7 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/healthcheck/ResourceHealthCheck.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044596" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/exception/DuplicatedException.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044596" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/java/com/nike/nikeplusrunclub/logic/MessageForwardProxyFactory.java" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411100044596" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/html/views/unfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411215001448" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/html/views/unfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412842600380" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/app.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412053749248" ignored="false" />
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/src/scripts/com/filter.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411215001448" ignored="false" />
     <file path="/filter.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411136959360" ignored="false" />
@@ -1791,8 +1785,14 @@
     <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/Gruntfile.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1411988376850" ignored="false" />
     <file path="/profileService.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412065786507" ignored="false" />
     <file path="/runner.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412049916031" ignored="false" />
-    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/runner.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412053844105" ignored="false" />
-    <file path="/mapCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412064066593" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/runner.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412842284734" ignored="false" />
+    <file path="/mapCtrl.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412923562947" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/scripts/libs.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412761671703" ignored="false" />
+    <file path="/unfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412842600380" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/unfollow.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1412842611240" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/SU14/dev/scripts/com/akqa/nikeplusrunclub/layout/ShareOverPageLayout.js" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413277265293" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/crew-recommendation.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343352604" ignored="false" />
+    <file path="$PROJECT_DIR$/../NikePlusRunClub/src/main/resources/assets/campaign/runon/build/html/views/leaderboard.html" changelist="3a6b66f0-d4f5-4332-9a47-537c8649e937" time="1413343352604" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1853,38 +1853,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConceptualTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConceptualTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ConceptualTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="35" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="39" selection-start="1385" selection-end="1385" vertical-scroll-proportion="1.2448133">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunClubPhotoFilterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="45" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="411" column="65" selection-start="18535" selection-end="18535" vertical-scroll-proportion="0.9275053">
+              <folding>
+                <element signature="e#25420#25464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1919,10 +1894,10 @@
         <option value="$PROJECT_DIR$/src/test/resource/summary.json" />
         <option value="$PROJECT_DIR$/src/test/resource/profile.1.json" />
         <option value="$PROJECT_DIR$/src/test/resource/profile.2.json" />
-        <option value="$PROJECT_DIR$/src/test/java/ConceptualTest.java" />
         <option value="$PROJECT_DIR$/src/test/resource/profile.json" />
         <option value="$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ConceptualTest.java" />
       </list>
     </option>
   </component>
@@ -2122,30 +2097,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunClubPhotoFilterTest.testWelcome2001_bidNumber">
-    <configuration default="false" name="ConceptualTest.testSyncData" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="testwechat" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConceptualTest" />
-      <option name="METHOD_NAME" value="testSyncData" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConceptualTest.testGetUserProfileInfoByMonth">
     <configuration default="false" name="ConceptualTest.testUpdateProfile" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="testwechat" />
@@ -2223,6 +2175,29 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RunClubPhotoFilterTest" />
       <option name="METHOD_NAME" value="testWelcome2001_bidNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConceptualTest.testGetUserProfileInfoByMonth" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="testwechat" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConceptualTest" />
+      <option name="METHOD_NAME" value="testGetUserProfileInfoByMonth" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -2382,19 +2357,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RunClubPhotoFilterTest.testClickMenuToKickoffWorkflow" />
       <item index="1" class="java.lang.String" itemvalue="Application.testService" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testSyncData" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testUpdateProfile" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfileInfo" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfile" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.RunClubPhotoFilterTest.testWelcome2001_bidNumber" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testUpdateProfile" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfileInfo" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfile" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RunClubPhotoFilterTest.testWelcome2001_bidNumber" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfileInfoByMonth" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RunClubPhotoFilterTest.testWelcome2001_bidNumber" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testUpdateProfile" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfileInfoByMonth" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfile" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfileInfo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testGetUserProfile" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testSyncData" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RunClubPhotoFilterTest.testWelcome2001_bidNumber" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ConceptualTest.testUpdateProfile" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -2454,11 +2429,15 @@
       <created>1412733674742</created>
       <updated>1412733674742</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding some conceptual test">
+      <created>1412733750914</created>
+      <updated>1412733750914</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="22" width="1403" height="878" extended-state="0" />
+    <frame x="37" y="22" width="1403" height="878" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32717678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2480,7 +2459,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17980841" sideWeight="0.6728232" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27440634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3812665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2610,13 +2589,6 @@
         <state line="66" column="39" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.28470254" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="22" selection-start="372" selection-end="372" vertical-scroll-proportion="0.1849315">
@@ -2624,24 +2596,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="820" selection-end="820" vertical-scroll-proportion="0.4520548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RunClubPhotoFilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+        <state line="46" column="45" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.8835617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.1849315">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ConceptualTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="35" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="39" selection-start="1385" selection-end="1385" vertical-scroll-proportion="1.2448133">
-          <folding />
+        <state line="411" column="65" selection-start="18535" selection-end="18535" vertical-scroll-proportion="0.9275053">
+          <folding>
+            <element signature="e#25420#25464#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
